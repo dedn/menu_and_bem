@@ -36,19 +36,14 @@ body {
   min-height: 100vh;
   max-height: 812px;
   width: 100%;
-  background: url("../../src/img/hero-bg.png") left/cover no-repeat, -webkit-gradient(linear, left top, right top, from(#485563), to(#29323c));
-  background: url("../../src/img/hero-bg.png") left/cover no-repeat, -webkit-linear-gradient(left, #485563 0%, #29323c 100%);
-  background: url("../../src/img/hero-bg.png") left/cover no-repeat, -o-linear-gradient(left, #485563 0%, #29323c 100%);
-  background: url("../../src/img/hero-bg.png") left/cover no-repeat, linear-gradient(to right, #485563 0%, #29323c 100%);
-  opacity: .75; }
+  background: -webkit-gradient(linear, left top, right top, from(rgba(72, 85, 99, 0.7)), to(rgba(41, 50, 60, 0.7))), url("../../src/img/hero-bg.png") center/cover no-repeat;
+  background: -webkit-linear-gradient(left, rgba(72, 85, 99, 0.7) 0%, rgba(41, 50, 60, 0.7) 100%), url("../../src/img/hero-bg.png") center/cover no-repeat;
+  background: -o-linear-gradient(left, rgba(72, 85, 99, 0.7) 0%, rgba(41, 50, 60, 0.7) 100%), url("../../src/img/hero-bg.png") center/cover no-repeat;
+  background: linear-gradient(to right, rgba(72, 85, 99, 0.7) 0%, rgba(41, 50, 60, 0.7) 100%), url("../../src/img/hero-bg.png") center/cover no-repeat; }
 
 @media (min-width: 990px) {
   .top-section {
-    min-height: 750px;
-    background: url("../../src/img/hero-bg.png") center/cover no-repeat, -webkit-gradient(linear, left top, right top, from(#485563), to(#29323c));
-    background: url("../../src/img/hero-bg.png") center/cover no-repeat, -webkit-linear-gradient(left, #485563 0%, #29323c 100%);
-    background: url("../../src/img/hero-bg.png") center/cover no-repeat, -o-linear-gradient(left, #485563 0%, #29323c 100%);
-    background: url("../../src/img/hero-bg.png") center/cover no-repeat, linear-gradient(to right, #485563 0%, #29323c 100%); } }
+    min-height: 750px; } }
 
 .link {
   font: 400 14px/1 'Montserrat';
