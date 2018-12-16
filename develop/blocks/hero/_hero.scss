@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  flex-grow: 1;
+  padding: 105px 0 30px;
+
+  &__container {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__arrow {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    padding: 205px 0 50px;
+
+    &__container {
+      padding: 0;
+    }
+  }
+}

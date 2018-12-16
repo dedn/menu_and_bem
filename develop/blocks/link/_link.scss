@@ -1,0 +1,14 @@
+$menu-color: #e8e8e8;
+
+.link {
+  font: 400 14px/1 'Montserrat';
+  text-decoration: none;
+  cursor: pointer;
+  color: $menu-color;
+  text-transform: uppercase;
+
+  &:hover {
+    transition: .3s;
+    opacity: .7;
+  }
+}

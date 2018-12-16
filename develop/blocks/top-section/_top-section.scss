@@ -1,0 +1,17 @@
+.top-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 812px;
+  width: 100%;
+  background: url('../../src/img/hero-bg.png') left / cover  no-repeat, linear-gradient(to right, #485563 0%, #29323c 100%);
+  opacity: .75;
+}
+
+
+@media (min-width: 990px) {
+  .top-section {
+    min-height: 750px;
+    background: url('../../src/img/hero-bg.png') center / cover  no-repeat, linear-gradient(to right, #485563 0%, #29323c 100%);
+  }
+}

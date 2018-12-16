@@ -1,0 +1,19 @@
+$main-color: #e8e8e8;;
+
+.hero-content {
+  width: 100%;
+  max-width: 630px;
+  text-align: center;
+  margin: 0 auto;
+
+  p {
+    padding-top: 10px;
+    font: 300 17px/25px 'Open Sans';
+    color: $main-color;
+    letter-spacing: -.42px;
+  }
+
+  &__button {
+    margin-top: 100px;
+  }
+}

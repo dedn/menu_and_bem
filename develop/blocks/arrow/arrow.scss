@@ -1,0 +1,30 @@
+$rectangle-bg: #fff;
+$arrow-block-border: rgba(242, 242, 242, .7);
+
+.arrow {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid $arrow-block-border;
+  cursor: pointer;
+
+  img {
+    margin: auto;
+  }
+
+  &:hover {
+    transition: .3s;
+    box-shadow: inset 0 0 8px 1px rgba(255, 255, 255, .75);
+  }
+}
+
+@media (min-width: 990px) {
+  .arrow {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid $arrow-block-border;
+
+  }
+}
