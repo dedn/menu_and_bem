@@ -1,7 +1,7 @@
 # menu
 
 ## demo
-Link demo 
+Link demo http://dedn.github.io/menu
 
 ### project structure
     app              /   :compiled aplication                                
